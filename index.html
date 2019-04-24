@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pixel Art Maker!</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />       
+    </head>
+    <body>
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="title">
+                            <img src="img/olaf-frozen-pixel-art-pixel-art_orig.png" class="img-fluid logo" alt=""/>
+                            Lab: Pixel Art Maker 
+                        </h1>
+                    </div>
+                </div>
+            </div>    
+        </header> 
+        <section id="pixel-maker">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="grid-title"> Choose Grid Size </h2>
+                    </div>
+                </div>
+                <form id="sizePicker">
+                    <div class="row form-group">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2">
+                            Grid Height:
+                        </div>
+                        <div class="col-md-2">
+                            <input class="form-control" type="number" id="input_height" name="height" min="1" value="20" required>
+                        </div>
+                        <div class="col-md-2">
+                            Grid Width:
+                        </div>
+                        <div class="col-md-2">
+                            <input class="form-control" type="number" id="input_width" name="width" min="1" value="20" required>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>    
+                    <div class="row form-group">
+                        <div class="col-md-2">  </div>
+                        <div class="col-md-2"> 
+                            Pick A Color
+                        </div>
+                        <div class="col-md-2">
+                            <input type="color" id="colorPicker">
+                        </div>
+                        <div class="col-md-6"></div>                       
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-2"> </div>
+                        <div class="col-md-2">
+                            <button class="custom-button cyan" id="submit-button" type="button"> Submit </button>
+                        </div>
+                        <div class="col-md-8">
+                        </div>
+                    </div>
+                </form>
+                <!--<h2>Design Canvas</h2>-->
+                <table id="pixel_canvas"></table>
+            </div>
+        </section>
+        <script src="js/jquery-3.2.1.min.js" ></script>
+        <script src="designs.js"></script>
+    </body>
+</html>

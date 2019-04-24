@@ -1,0 +1,106 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body ,
+html{
+    text-align: center;
+    background-repeat: repeat;
+    background-image: url(http://education.themerex.net/wp-content/uploads/2015/03/green.jpg);
+    background-position: center top;
+    height:100%;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid #CED4DA;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+/*input[type=number] {
+    width: 6em;
+}*/
+/*******************************/
+#header
+{
+    background:#000;
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+.title
+{
+    margin-top:30px;
+    color:#FFF;
+}
+.logo
+{
+    padding-bottom:20px;
+    max-height:100px;
+}
+#pixel-maker .container
+{
+    background:#FFF;
+    height:auto;
+    padding-bottom: 100px;
+}
+.grid-title
+{
+    color:rgb(24, 129, 120);
+    margin:30px;
+}
+.custom-button
+{
+    
+    box-shadow: -4px 3px 0 0 rgba(0,0,0,0.2);
+    color:#fff;
+    text-align: center;
+    font-size: 0.875em;
+    line-height: 1.3em;
+    font-weight: 700;
+    transition:all 0.5s;
+    padding:10px;
+    text-transform:capitalize;
+}
+.custom-button:hover
+{
+    background-color: #820101;
+    color:#FFF;
+}
+
+.cyan
+{
+    background:rgb(24, 129, 120);
+}
+.form-group
+{
+    margin-bottom:30px;
+}
